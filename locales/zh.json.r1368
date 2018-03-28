@@ -1,0 +1,88 @@
+{
+	"error": {
+		"api": {
+			"general": {
+				"notFound": "Not Found",
+				"conflict": "Conflict",
+				"internalServerError": "Internal Server Error",
+				"forbidden": "Forbidden",
+				"unauthorized": "Unauthorized"
+			},
+			"wechat": {
+				"auth": {
+					"noCode": "Code不能为空",
+					"getAccessTokenFailed": "error.api.wechat.auth.getAccessTokenFailed"
+				}
+			},
+			"auth": {
+				"noCode": "Code不能为空",
+				"noToken": "Token不能为空",
+				"expiredToken": "Token已过期",
+				"invalidToken": "Token非法",
+				"notRegister": "没有注册"
+			},
+			"hospital": {
+				"nullState": "省份不能为空",
+				"nullCity": "城市不能为空",
+				"notSupportCity": "不支持该城市",
+				"notFound": "未找到该医院"
+			},
+			"verifyCode": {
+				"invalidPhoneNumber": "手机号码不正确"
+			},
+			"user": {
+				"invalidVerifyCode": "验证码错误",
+				"invalidRole": "角色错误",
+				"duplicatedPhoneNumber": "该手机号码已被注册",
+				"duplicatedOpenId": "该微信号已被注册",
+				"notFound": "未找到该用户",
+				"pwdInvalid": "密码错误"
+			},
+			"work": {
+				"noPermission": "没有权限",
+				"notFound": "未找到护工",
+				"workConflict": "重复注册护工",
+				"workNotApproved": "护工审核还未通过",
+				"noState": "省份不能为空",
+				"noCity": "城市不能为空",
+				"notSupportCity": "不支持该城市",
+				"noUserId": "用户id不能为空",
+				"paymentMethod": {
+					"notFound": "未找到可用支付方式"
+				},
+				"service": {
+					"notFound": "未填写服务配置",
+					"conflict": "重复填写服务配置",
+					"invalid": "服务配置不合法"
+				},
+				"notApproved": "error.api.work.notApproved",
+				"conflict": "error.api.work.conflict"
+			},
+			"supervision": {
+				"notFound": {
+					"notFound": "督工未找到",
+					"conflict": "重复注册督工"
+				}
+			},
+			"orderWork": {
+				"invalidStatus": "状态错误",
+				"notFound": "未找到该派单",
+				"notIdle": "该派单已处理"
+			},
+			"order": {
+				"invalidStatus": "订单状态错误",
+				"noPermission": "没有权限",
+				"notComplete": "订单未完成",
+				"completed": "订单已完成",
+				"notFound": "订单未找到",
+				"rating": {
+					"notFound": "评价未找到",
+					"conflict": "不能重复评价"
+				},
+				"paid": "订单已支付",
+				"noAvailableWorker": "未找到可服务的护工",
+				"createWechatPayFail": "微信支付请求失败"
+			}
+		}
+	}
+}

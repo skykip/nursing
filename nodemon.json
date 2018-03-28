@@ -1,0 +1,16 @@
+{
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules",
+    "npm-debug.log",
+    "test",
+    "*.md",
+    "public",
+    "logs"
+  ],
+  "verbose": true,
+  "ext": "js json"
+}
+
+
+

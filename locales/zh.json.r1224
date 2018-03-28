@@ -1,0 +1,23 @@
+{
+	"error": {
+		"api": {
+			"user": {
+				"notFound": "error.api.user.notFound",
+				"pwdInvalid": "error.api.user.pwdInvalid"
+			},
+			"general": {
+				"notFound": "error.api.general.notFound",
+				"internalServerError": "error.api.general.internalServerError"
+			},
+			"wechat": {
+				"auth": {
+					"noCode": "error.api.wechat.auth.noCode",
+					"getAccessTokenFailed": "error.api.wechat.auth.getAccessTokenFailed"
+				}
+			},
+			"order": {
+				"notFound": "error.api.order.notFound"
+			}
+		}
+	}
+}

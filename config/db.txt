@@ -1,0 +1,28 @@
+"sequelize": {
+    "username": "sjht_hph",
+    "password": "Sjht123456",
+    "database": "nursing",
+    "host": "120.27.192.131",
+    "port":3599,
+    "dialect": "mysql",
+    "timezone":"+08:00",
+    "dialectOptions": {
+      "supportBigNumbers": true,
+      "bigNumberStrings": true,
+      "charset": "utf8mb4",
+      "collate": "utf8mb4_unicode_ci"
+    },
+    "sequelize": {
+    "username": "root",
+    "password": "yzl",
+    "database": "nursing2",
+    "host": "192.168.141.112",
+    "port":3306,
+    "dialect": "mysql",
+    "timezone":"+08:00",
+    "dialectOptions": {
+      "supportBigNumbers": true,
+      "bigNumberStrings": true,
+      "charset": "utf8mb4",
+      "collate": "utf8mb4_unicode_ci"
+    },

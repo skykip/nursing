@@ -1,0 +1,65 @@
+{
+  "url": "127.0.0.1",
+  "port": 8080,
+  "serviceConfig": {
+    "minDaysBeforeStart": 0,
+    "maxDaysBeforeStart": 2,
+    "minServiceDays": 0.5,
+    "maxServiceDays": 30
+  },
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "index": 0
+  },
+  "sequelize": {
+    "username": "root",
+    "password": "root",
+    "database": "nursing",
+    "host": "127.0.0.1",
+    "port":3306,
+    "dialect": "mysql",
+    "dialectOptions": {
+      "supportBigNumbers": true,
+      "bigNumberStrings": true,
+      "charset": "utf8mb4",
+      "collate": "utf8mb4_unicode_ci"
+    },
+      "logging": false,
+      "operatorsAliases": false
+    },
+    "wechat": {
+      "customer": {
+        "appId": "wx658f88cc615312df",
+        "appSecret": "ce0e2ac7828d708c278a0d0508f1a0f2",
+        "token": "xJ4EPvdb7Pk8bm85y8JN",
+        "appToken": "",
+        "cache_json_file": "./config/customer",
+        "mchId": "1342369101",
+        "partnerKey": "Shenzhengkuaikangwangluo20160407",
+        "pfx": "./data/pay/cert/customer/apiclient_cert.p12",
+        "sandbox": true
+      },
+      "worker": {
+        "appId": "wxc623feee9451eb31",
+        "appSecret": "b65175b36956ce73abc416a46aecc256",
+        "token": "kua1kan9",
+        "appToken": "",
+        "cache_json_file": "./config/worker",
+        "mchId": "1342553001",
+        "partnerKey": "Shenzhengkuaikangwangluo20160407",
+        "pfx": "./data/pay/cert/worker/apiclient_cert.p12",
+        "sandbox": true
+      }
+    },
+    "tokenSecret": "!#O20@AlaDd1n#^.c0m$&%",
+    "pagination": {
+      "minLimit": 1,
+      "maxLimit": 1000
+    }, 
+    "business": {
+      "maxOrderCount": 1,
+      "orderWaitingTime": 60000,
+      "tolerateTime": 30000
+    }
+}

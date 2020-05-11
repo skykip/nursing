@@ -43,7 +43,7 @@
     "redis": "^2.8.0",
     "request": "^2.83.0",
     "rx": "^4.1.0",
-    "sequelize": "^4.22.6",
+    "sequelize": "^5.15.1",
     "serve-favicon": "~2.4.5",
     "text-censor": "^1.0.2",
     "wechat": "^2.1.0",

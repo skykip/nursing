@@ -31,7 +31,7 @@
     "jade": "~1.11.0",
     "jwt-simple": "^0.5.1",
     "later": "^1.2.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.19",
     "method-override": "^2.3.10",
     "moment": "^2.20.1",
     "moment-timezone": "^0.5.14",
